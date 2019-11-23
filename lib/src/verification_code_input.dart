@@ -73,7 +73,6 @@ class _VerificationCodeInputState extends State<VerificationCodeInput> {
           fillColor: Colors.black),
       onChanged: (String value) {
         print(
-            '++++++++++ $_currentIdex --- ${widget.length} ---- ${value.length}');
         if ((_currentIdex + 1) == widget.length && value.length > 1) {
           widget.onEditing(false);
         } else {
