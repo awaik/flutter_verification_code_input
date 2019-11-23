@@ -1,35 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_verification_code_input/flutter_verification_code_input.dart';
 
-void main() => runApp(new MyApp());
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
+    return MaterialApp(
       title: 'Flutter Demo',
-      theme: new ThemeData(
+      theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }
 
 class MyHomePage extends StatefulWidget {
   @override
-  _MyHomePageState createState() => new _MyHomePageState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String _onCompleted = "";
+  bool _onEditing = true;
+  String _code;
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: Center(child: new Text('Example verify code')),
+    return Scaffold(
+      appBar: AppBar(
+        title: Center(child: Text('Example verify code')),
       ),
       body: Column(
         children: <Widget>[
@@ -49,20 +50,29 @@ class _MyHomePageState extends State<MyHomePage> {
             onCompleted: (String value) {
               print(value);
               setState(() {
-                _onCompleted = value;
+                _code = value;
+              });
+            },
+            onEditing: (bool value) {
+              setState(() {
+                _onEditing = value;
               });
             },
           ),
-          (_onCompleted != "")
+          (_onEditing != true)
               ? Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Center(
                     child: Text(
-                      'Your code: $_onCompleted',
+                      'Your code: $_code',
                     ),
                   ),
                 )
-              : Container(),
+              : Container(
+                  child: Text(
+                    'Please enter full code',
+                  ),
+                ),
         ],
       ),
     );

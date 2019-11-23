@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class VerificationCodeInput extends StatefulWidget {
   final ValueChanged<String> onCompleted;
+  final ValueChanged<bool> onEditing;
   final TextInputType keyboardType;
   final int length;
   final double itemSize;
@@ -11,6 +12,7 @@ class VerificationCodeInput extends StatefulWidget {
   VerificationCodeInput(
       {Key key,
       this.onCompleted,
+      this.onEditing,
       this.keyboardType = TextInputType.number,
       this.length = 4,
       this.itemDecoration,
@@ -22,8 +24,7 @@ class VerificationCodeInput extends StatefulWidget {
         super(key: key);
 
   @override
-  _VerificationCodeInputState createState() =>
-      new _VerificationCodeInputState();
+  _VerificationCodeInputState createState() => _VerificationCodeInputState();
 }
 
 class _VerificationCodeInputState extends State<VerificationCodeInput> {
@@ -36,8 +37,8 @@ class _VerificationCodeInputState extends State<VerificationCodeInput> {
   void initState() {
     if (_listFocusNode.isEmpty) {
       for (var i = 0; i < widget.length; i++) {
-        _listFocusNode.add(new FocusNode());
-        _listControllerText.add(new TextEditingController());
+        _listFocusNode.add(FocusNode());
+        _listControllerText.add(TextEditingController());
         _code.add(' ');
       }
     }
@@ -71,6 +72,14 @@ class _VerificationCodeInputState extends State<VerificationCodeInput> {
           errorMaxLines: 1,
           fillColor: Colors.black),
       onChanged: (String value) {
+        print(
+            '++++++++++ $_currentIdex --- ${widget.length} ---- ${value.length}');
+        if ((_currentIdex + 1) == widget.length && value.length > 1) {
+          widget.onEditing(false);
+        } else {
+          widget.onEditing(true);
+        }
+
         if (value.length > 1 && index < widget.length ||
             index == 0 && value.isNotEmpty) {
           if (index == widget.length - 1) {
@@ -78,8 +87,7 @@ class _VerificationCodeInputState extends State<VerificationCodeInput> {
             return;
           }
           if (_listControllerText[index + 1].value.text.isEmpty) {
-            _listControllerText[index + 1].value =
-                new TextEditingValue(text: " ");
+            _listControllerText[index + 1].value = TextEditingValue(text: " ");
           }
           if (value.length == 2) {
             if (value[0] != _code[index]) {
@@ -98,8 +106,7 @@ class _VerificationCodeInputState extends State<VerificationCodeInput> {
         }
         if (value.isEmpty && index >= 0) {
           if (_listControllerText[index - 1].value.text.isEmpty) {
-            _listControllerText[index - 1].value =
-                new TextEditingValue(text: " ");
+            _listControllerText[index - 1].value = TextEditingValue(text: " ");
           }
           _prev(index);
         }
