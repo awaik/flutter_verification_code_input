@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b67f242-c263-4bb8-9559-97293f1f5ce6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/flutter_verification_code_input.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lib/src/verification_code_input.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/src/verification_code_input.dart" afterDir="false" />
-    </list>
+    <list default="true" id="0b67f242-c263-4bb8-9559-97293f1f5ce6" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
     <ignored path="$PROJECT_DIR$/.pub/" />
@@ -38,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/main.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+            <state relative-caret-position="168">
+              <caret line="34" selection-start-line="34" selection-end-line="75" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -145,8 +129,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/main.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="34" selection-start-line="34" selection-end-line="75" selection-end-column="10" />
         </state>
       </provider>
     </entry>

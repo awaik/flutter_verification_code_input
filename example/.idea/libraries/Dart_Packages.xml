@@ -54,7 +54,7 @@
         <entry key="flutter_verification_code_input">
           <value>
             <list>
-              <option value="$PROJECT_DIR$/../lib" />
+              <option value="$USER_HOME$/development/flutter/.pub-cache/git/flutter_verification_code_input-3ab8be1c74b96600d3df2221c190e50fda7c44b9/lib" />
             </list>
           </value>
         </entry>
@@ -159,6 +159,7 @@
       </option>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/development/flutter/.pub-cache/git/flutter_verification_code_input-3ab8be1c74b96600d3df2221c190e50fda7c44b9/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.3.0/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-1.0.5/lib" />
       <root url="file://$USER_HOME$/development/flutter/.pub-cache/hosted/pub.dartlang.org/charcode-1.1.2/lib" />
@@ -180,7 +181,6 @@
       <root url="file://$USER_HOME$/development/flutter/bin/cache/pkg/sky_engine/lib" />
       <root url="file://$USER_HOME$/development/flutter/packages/flutter/lib" />
       <root url="file://$USER_HOME$/development/flutter/packages/flutter_test/lib" />
-      <root url="file://$PROJECT_DIR$/../lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

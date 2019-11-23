@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe5e1357-ef0f-4f87-b575-052c862c5c8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/flutter_verification_code_input.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/.idea/runConfigurations/main_dart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/verification_code_input.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/verification_code_input.dart" afterDir="false" />
-    </list>
+    <list default="true" id="fe5e1357-ef0f-4f87-b575-052c862c5c8e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +14,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/src/verification_code_input.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
+            <state relative-caret-position="651">
+              <caret line="75" column="70" lean-forward="true" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -157,7 +141,7 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Run" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" weight="0.25816327" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.25816327" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.19489796" />
@@ -178,8 +162,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/verification_code_input.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="75" column="82" selection-start-line="75" selection-start-column="82" selection-end-line="75" selection-end-column="82" />
+        <state relative-caret-position="651">
+          <caret line="75" column="70" lean-forward="true" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
         </state>
       </provider>
     </entry>
